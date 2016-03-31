@@ -9,12 +9,12 @@ Gem::Specification.new do |spec|
   spec.authors       = ["rdalin82"]
   spec.email         = ["Robert.Dalin@gmail.com"]
 
-  if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
-  end
+  # if spec.respond_to?(:metadata)
+  #   spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com' to prevent pushes to rubygems.org, or delete to allow pushes to any server."
+  # end
 
-  spec.summary       = %q{TODO: ruby gem wrapper for city of chicago employees data}
-  spec.description   = %q{TODO: Gem using soda api endpoint from city of chicago to parse json objects into ruby objects.}
+  spec.summary       = %q{ruby gem wrapper for city of chicago employees data}
+  spec.description   = %q{Gem using soda api endpoint from city of chicago to parse json objects into ruby objects.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
