@@ -2,6 +2,7 @@ require "chicago_employees/version"
 require 'unirest'
 module ChicagoEmployees
   class Employee
+  	:attr_reader :title, :department, :name, :salary
   	def initialize(input_options)
   		@title = input_options["job_titles"]
   		@department = input_options["department"]
